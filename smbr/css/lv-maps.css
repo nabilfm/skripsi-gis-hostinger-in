@@ -1,0 +1,17 @@
+      .map{
+          box-shadow: 5px 5px 5px #888;
+        }
+      .container_fndesc {
+        margin: 0 auto;
+        max-width: 95%;
+        width: 800px;
+      }
+      #itemT { 
+        background: black;
+        filter:alpha(opacity=60); /* IE */
+        -moz-opacity:0.6; /* Mozilla */
+        opacity: 0.6; /* CSS3 */
+      }
+      p.first {
+        text-indent: 5em;
+      }

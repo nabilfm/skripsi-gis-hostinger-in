@@ -1,0 +1,14 @@
+#page-wrap {
+    width: 400px;
+    margin: 120px auto 0 auto;
+    background-color: white;
+  	box-shadow: 20px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+  	padding-bottom: 1px;
+  	padding-top: 1px;
+}
+
+body {
+  text-align: center;
+ }
