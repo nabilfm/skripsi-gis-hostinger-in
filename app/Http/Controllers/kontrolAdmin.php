@@ -33,6 +33,7 @@ class kontrolAdmin extends Controller
         //die($ip);
         return $ip;
     }
+
     public function masukinUser(Request $minta){
         $nama 		= $minta['username'];
 //		dd($minta->all());

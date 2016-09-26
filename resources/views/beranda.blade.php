@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 
 @section('title', 'Beranda')
+
 @section('head')
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     {{--@if(!Auth::check())--}}
@@ -100,8 +101,9 @@
             var warna = ["","#22313F","#F62459","#9A12B3","#2574A9","#26A65B","#F7CA18","#F1A9A0","#F89406","#FDE3A7","#6C7A89","#86E2D5"];
 
             function direct(npsn){
-                window.location = "/bismillah/sekolah/"+npsn+"/lokasi/arahkan";
+                window.location = "/sekolah/"+npsn+"/lokasi/arahkan";
             }
+            /* ganti halaman via js */
             function halaman(jjg,kec) {
                 if (jjg===1) {
                     jenjang="smp";
@@ -115,7 +117,7 @@
                 if (kec!=0) {
                     jenjang += '/kecamatan/' + kec;
                 }
-                window.location = "/bismillah/peta-sekolah/jenjang/"+jenjang;
+                window.location = "/peta-sekolah/jenjang/"+jenjang;
             }
 
             $(document).ready(function(){
@@ -131,6 +133,7 @@
                     'maxWidth': '700',
                     'className' : 'custom'
                 };
+
                 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                     maxZoom: 18,
                     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
@@ -139,6 +142,7 @@
                     id: 'mapbox.streets',
                     accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw'
                 }).addTo(mymap);
+
                 L.MakiMarkers.accessToken = "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw";
                 if (home) {
                     for (var i in kecamatan) {
@@ -196,7 +200,7 @@
                     for (var xx in sekolah) {
                         var sc = sekolah[xx];
                         popupcontent = "<h5 class='teal-text center'>" + sc['nama']+ "</h5><p>" + sc['alamat']+ "</p>" +
-                                "<center><img style='height: 100px; width: 100px;' src='"+window.location.protocol + "//" + window.location.host + "/bismillah/"+gambar[xx]+"'></center>"+
+                                "<center><img style='height: 100px; width: 100px;' src='"+window.location.protocol + "//" + window.location.host + "/"+gambar[xx]+"'></center>"+
                                 "<table class='centered bordered'>"+
                                 "<thead>"+
                                 "<tr>"+
@@ -240,7 +244,6 @@
             });
         </script>
     {{--@endif--}}
-
 @endsection
 @section('footer')
     <footer style="background-color: #0D47A1" class="page-footer">

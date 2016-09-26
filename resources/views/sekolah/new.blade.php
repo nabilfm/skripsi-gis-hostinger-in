@@ -32,8 +32,10 @@
 						<div class="row">
                             <div class="col s12 m6 l6">
                                 <label>Foto Sekolah</label>
-                                @if(count($sekolah->gambar))
-                                    <center><img id="imgPreview" src="{{ url($sekolah->gambar->path.$sekolah->gambar->filename)}}" style="width: 125px;height: 125px"></center>
+                                @if($label === 'Sekolah Baru')
+                                    @if(count($sekolah->gambar))
+                                        <center><img id="imgPreview" src="{{ url($sekolah->gambar->path.$sekolah->gambar->filename)}}" style="width: 125px;height: 125px"></center>
+                                    @endif
                                 @else
                                     <center><img id="imgPreview" src="" style="width: 125px;height: 125px"></center>
                                 @endif
@@ -93,22 +95,12 @@
                         <div class="row">
                             <div class="input-field col s6">
                                 <input id="SC_kelurahan" name="SC_kelurahan" type="text" maxlength="15" length="15" value="{{{$sekolah->kelurahan or ''}}}" required >
-                                <label for="SC_kelurahan">Kelurahan</label>
-                                {{--<select>--}}
-                                    {{--<option value="" disabled selected>Choose your option</option>--}}
-                                    {{--<option value="1">Option 1</option>--}}
-                                    {{--<option value="2">Option 2</option>--}}
-                                    {{--<option value="3">Option 3</option>--}}
-                                {{--</select>--}}
-                                {{--<label>Materialize Select</label>--}}
-                                {{--kelurahan--}}
+                                <label for="SC_kelurahan">Kelurahan</label
                             </div>
                             <div class="input-field col s6">
-                                {{--<input id="SC_kecamatan" name="SC_kecamatan" type="text" maxlength="15" length="15" value="{{{$sekolah->kecamatan or ''}}}" required >--}}
-                                {{--<label for="SC_kecamatan">Kecamatan</label>--}}
                                 @if($label==="Sekolah Baru")
                                     <select id="SC_kecamatan" name="SC_kecamatan">
-                                        <option value="default" disabled selected>Choose your option</option>
+                                        <option value="default" disabled>Choose your option</option>
                                         @foreach($selkec as $kc)
                                             <option value="{{$kc->id}}">{{$kc->nama}}</option>
                                         @endforeach
@@ -116,7 +108,7 @@
                                     <label>Kecamatan</label>
                                 @else
                                     <select id="SC_kecamatan" name="SC_kecamatan">
-                                        <option value="default" disabled selected>Choose your option</option>
+                                        <option value="default" disabled>Choose your option</option>
                                         @foreach($selkec as $kc)
                                             <option value="{{$kc->id}}" {{{$kc->id === $sekolah->kecamatan_id ? "selected":""}}}>{{$kc->nama}}</option>
                                         @endforeach
@@ -347,7 +339,7 @@
                     required: true,
                     maxlength:10,
                     remote: {
-                        url: window.location.protocol + "//" + window.location.host + "/bismillah/npsnv",
+                        url: window.location.protocol + "//" + window.location.host + "/npsnv",
                         type: "post",
                         data:  {
                             'tmpnm': azzz,

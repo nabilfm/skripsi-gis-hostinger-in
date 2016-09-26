@@ -108,7 +108,7 @@ class kontrolSekolah extends Controller
         $tipe       = 'SMA';
         $all        = false;
         $namarute   = Route::currentRouteName();
-        $gambar     = $sekolah->gambar ? $sekolah->gambar->path.$sekolah->gambar->filename: 'undefined';
+        $gambar     = $sekolah->gambar ? $sekolah->gambar->path.$sekolah->gambar->filename: 'undefined.png';
 //        dd($gambar);
         $arahkan    = $namarute === "map.sekolah.arahkan" ? true : false ;
         JavaScript::put([
@@ -220,13 +220,13 @@ class kontrolSekolah extends Controller
             }
             Session::flash('success','Berhasil Menyimpan Sekolah');
             echo "<script>alert('Berhasil Menyimpan Sekolah');
-                        window.location = '/bismillah/admin';
+                        window.location = '/admin';
                     </script>";
 //            return redirect()->route('admin.home');
         } else {
             Session::flash('success','Gagal Menyimpan Sekolah');
             echo "<script>alert('Gagal Menyimpan Sekolah');
-                        window.location = '/bismillah/admin';
+                        window.location = '/admin';
                     </script>";
 //            return redirect()->route('admin.home');
         }

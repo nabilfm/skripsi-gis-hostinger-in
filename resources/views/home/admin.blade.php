@@ -209,7 +209,7 @@
 </div>
 <script>
     function peta(npsn) {
-        window.location = "/bismillah/sekolah/"+npsn+"/lokasi";
+        window.location = "/sekolah/"+npsn+"/lokasi";
     }
     function apus(e) {
         if (confirm('Hapus Sekolah?')) {

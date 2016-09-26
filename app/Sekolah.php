@@ -13,8 +13,9 @@ class Sekolah extends Model
         return $this->hasOne('App\Gambar');
     }
     public function kecamatan(){
-//        return $this->belongsTo('App\Kecamatan','nama_kecamatan');
         return $this->belongsTo('App\Kecamatan');
+
+//        return $this->belongsTo('App\Kecamatan','nama_kecamatan');
 //        return $this->hasMany('App\Gambar');
     }
 }

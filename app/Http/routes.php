@@ -38,25 +38,11 @@ Route::group(['middleware' => ['web']],function(){
     Route::post('masuk',[
         'uses' 	=> 'kontrolAdmin@masukinUser',
         'as'	=> 'masuk']);
-//    Route::get('/',[
-//        'uses'  => 'Pengontrol@home',
-//        'as'    => 'home'
-//    ]);
-//    Route::get('beranda',[
-//        'uses'  => 'Pengontrol@homeGIS',
-//        'as'    => 'GIS'
-//    ]);
     Route::get('/',[
         'uses'  => 'Pengontrol@homeGIS',
         'as'    => 'home'
     ]);
-//    Route::get('beranda',[
-//        'uses'  => 'Pengontrol@homeGIS',
-//        'as'    => 'GIS'
-//    ]);
 });
-
-
 
 Route::group(['middleware' => ['web','administrator']],function(){
     Route::group(['prefix'=>'admin'],function(){

@@ -101,7 +101,7 @@
             }
             function popupContent(nama, alamat, latitude, longitude) {
                 pc = "<h5 class='teal-text center'>" + nama + "</h5><p>" + alamat + "</p>" +
-                        "<center><img style='height: 100px; width: 100px;' src='"+window.location.protocol + "//" + window.location.host + "/bismillah/"+gambar+"'></center>"+
+                        "<center><img style='height: 100px; width: 100px;' src='"+window.location.protocol + "//" + window.location.host + "/"+gambar+"'></center>"+
                         "<table class='centered bordered'>"+
                         "<thead>"+
                         "<tr>"+
@@ -129,7 +129,7 @@
                 mymap.locate({setView: true, maxZoom: 12});
             }
             function direct(npsn){
-                    window.location = "/bismillah/sekolah/"+npsn+"/lokasi/arahkan";
+                    window.location = "/sekolah/"+npsn+"/lokasi/arahkan";
             }
         $(document).ready(function () {
             // initialization

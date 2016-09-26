@@ -24,11 +24,7 @@
                 @if(count($smp))
                     <div class="row">
                         <div class="col s12 m12 l12">
-                            {{--<form id="form_fauna" action="{{route('delete.all.cl')}}" method="post" name="delete_form">--}}
-                            {{--<a id="btn_del" data-position="bottom" data-delay="50" data-tooltip="delete this" class="waves-effect waves-light btn orange left tooltipped">Delete All</a>--}}
-                            {{--<input type="hidden" name="lbluid" value="{{$user->id}}">--}}
-                            {{--<input type="hidden" name="_token" value="{{ Session::token() }}">--}}
-                            {{--</form>--}}
+
                             <a href="{{route('maps.all',['jenjang'=>'smp'])}}" class="waves-effect waves-light btn blue right">lihat Peta</a>
                         </div>
                     </div>
@@ -53,43 +49,7 @@
                             <td>{{$dataSM->kecamatan->nama}}</td>
                             <td><a href="{{ route('map.sekolah',['npsn'=>$dataSM->npsn])}}" class="waves-effect waves-light btn green black-text">peta</a></td>
                         </tr>
-                        {{--@if(\Auth::check())--}}
-                        {{--<a href="{{ route('edit.school',['npsn'=>$dataSM->npsn])}}" class="black-text">--}}
-                        {{--@else--}}
-                        {{--<a href="{{ route('map.sekolah',['npsn'=>$dataSM->npsn])}}" class="black-text">--}}
-                        {{--@endif--}}
-                        {{--<div class="col s6 m6 l4">--}}
-                        {{--<div id="c_user" class="card-panel z-depth-1 hoverable">--}}
-                        {{--<div id="cc_user">--}}
-                        {{--<div class="card-content">--}}
-                        {{--<h5>{{$dataSM->nama}}</h5>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                        {{--<span>{{$dataSM->alamat}}</span>--}}
-                        {{--</div>--}}
-                        {{--</div>--}}
-                        {{--@if(\Auth::check())--}}
-                        {{--<div id="del_user">--}}
-                        {{--<form id="form_user" action="{{route('deleteFg')}}" method="post" name="register_form">--}}
-                        {{--<form id="form_user" action="{{route('school.delete')}}" method="post" name="register_form">--}}
-                        {{--<div class="card-content">--}}
-                        {{--<span>{{$dataSM->npsn}}<a id="sec_con" class="secondary-content"><i class="material-icons" onclick="peta({{$dataSM->npsn}})">pin_drop</i><i class="material-icons" onclick="apus(this)">deletes</i></a></span>--}}
-                        {{--<input type="hidden" name="_token" value="{{ Session::token() }}">--}}
-                        {{--<input type="hidden" name="lblsc" value="{{$dataSM->npsn}}">--}}
-                        {{--</div>--}}
-                        {{--</form>--}}
-                        {{--</div>--}}
-                        {{--@else--}}
-                        {{--<div id="del_user">--}}
-                        {{--<form id="form_user" action="{{route('deleteFg')}}" method="post" name="register_form">--}}
-                        {{--<div class="card-content">--}}
-                        {{--<span>{{$dataSM->npsn}}</span>--}}
-                        {{--</div>--}}
-                        {{--</div>--}}
-                        {{--@endif--}}
-                        {{--</div>--}}
-                        {{--</div>--}}
-                        {{--</a>--}}
+
                         @empty
                             <center><h3 class="red-text">No School</h3></center>
                         @endforelse
@@ -104,11 +64,7 @@
                 @if(count($sma))
                     <div class="row">
                         <div class="col s6 m12 l12">
-                            {{--<form id="form_fauna" action="{{route('delete.all.cl')}}" method="post" name="delete_form">--}}
-                            {{--<a id="btn_del" data-position="bottom" data-delay="50" data-tooltip="delete this" class="waves-effect waves-light btn orange left tooltipped">Delete All</a>--}}
-                            {{--<input type="hidden" name="lbluid" value="{{$user->id}}">--}}
-                            {{--<input type="hidden" name="_token" value="{{ Session::token() }}">--}}
-                            {{--</form>--}}
+
                             <a href="{{route('maps.all',['jenjang'=>'sma'])}}" class="waves-effect waves-light btn blue right">lihat Peta</a>
                         </div>
                     </div>
@@ -133,45 +89,6 @@
                             <td>{{$dataSM->kecamatan->nama}}</td>
                             <td><a href="{{ route('edit.school',['npsn'=>$dataSM->npsn])}}" class="waves-effect waves-light btn green black-text">ubah</a></td>
                         </tr>
-                        {{--<a href="" class="black-text">--}}
-                        {{--@if(\Auth::check())--}}
-                        {{--<a href="{{ route('edit.school',['npsn'=>$dataSM->npsn])}}" class="black-text">--}}
-                        {{--@else--}}
-                        {{--<a href="{{ route('map.sekolah',['npsn'=>$dataSM->npsn])}}" class="black-text">--}}
-                        {{--@endif--}}
-                        {{--<div class="col s6 m6 l4">--}}
-                        {{--<div id="c_user" class="card-panel z-depth-1 hoverable">--}}
-                        {{--<div id="cc_user">--}}
-                        {{--<div class="card-content">--}}
-                        {{--<h5>{{$dataSM->nama}}</h5>--}}
-                        {{--</div>--}}
-                        {{--<div class="card-content">--}}
-                        {{--<span>{{$dataSM->alamat}}</span>--}}
-                        {{--</div>--}}
-                        {{--</div>--}}
-                        {{--@if(\Auth::check())--}}
-                        {{--<div id="del_user">--}}
-                        {{--<form id="form_user" action="{{route('deleteFg')}}" method="post" name="register_form">--}}
-                        {{--<form id="form_user" action="{{route('school.delete')}}" method="post" name="register_form">--}}
-
-                        {{--<div class="card-content">--}}
-                        {{--<span>{{$dataSM->npsn}}<a id="sec_cona" class="secondary-content"><i class="material-icons" onclick="peta({{$dataSM->npsn}})">pin_drop</i><i class="material-icons" onclick="apus(this)">deletes</i></a></span>--}}
-                        {{--<input type="hidden" name="_token" value="{{ Session::token() }}">--}}
-                        {{--<input type="hidden" name="lblsc" value="{{$dataSM->npsn}}">--}}
-                        {{--</div>--}}
-                        {{--</form>--}}
-                        {{--</div>--}}
-                        {{--@else--}}
-                        {{--<div id="del_user">--}}
-                        {{--<form id="form_user" action="{{route('deleteFg')}}" method="post" name="register_form">--}}
-                        {{--<div class="card-content">--}}
-                        {{--<span>{{$dataSM->npsn}}</span>--}}
-                        {{--</div>--}}
-                        {{--</div>--}}
-                        {{--@endif--}}
-                        {{--</div>--}}
-                        {{--</div>--}}
-                        {{--</a>--}}
                         @empty
                             <center><h3 class="red-text">No School</h3></center>
                         @endforelse
@@ -187,7 +104,7 @@
     </div>
     <script>
         function peta(npsn) {
-            window.location = "/bismillah/sekolah/"+npsn+"/lokasi";
+            window.location = "/sekolah/"+npsn+"/lokasi";
         }
         function apus(e) {
             if (confirm('Hapus Sekolah?')) {
