@@ -65,6 +65,10 @@
                         <th rowspan="2" data-field="kecamatan"><center>Kecamatan</center></th>
                         <th colspan="2" data-field="psgrade"><center>Passing Grade</center></th>
                     </tr>
+                    <tr>
+                        <th><center>Tahun 2015</center></th>
+                        <th><center>Tahun 2016</center></th>
+                    </tr>
                     </thead>
             @forelse($smp as $dataSM)
                         <tbody>
