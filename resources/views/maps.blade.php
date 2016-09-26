@@ -99,7 +99,7 @@
                     }).addTo(mymap);
                 }
             }
-            function popupContent(nama, alamat, latitude, longitude) {
+            function popupContent(nama, alamat, latitude, longitude, pg15low, pg15high, pg16low, pg16high) {
                 pc = "<h5 class='teal-text center'>" + nama + "</h5><p>" + alamat + "</p>" +
                         "<center><img style='height: 100px; width: 100px;' src='"+window.location.protocol + "//" + window.location.host + "/"+gambar+"'></center>"+
                         "<table class='centered bordered'>"+
@@ -128,10 +128,10 @@
                         "</thead>"+
                         "<tbody>"+
                         "<tr>"+
-                        "<td>"+sc['psgrade15low']+"</td>"+
-                        "<td>"+sc['psgrade15high']+"</td>"+
-                        "<td>"+sc['psgrade16low']+"</td>"+
-                        "<td>"+sc['psgrade16high']+"</td>"+
+                        "<td>"+pg15low+"</td>"+
+                        "<td>"+pg15high+"</td>"+
+                        "<td>"+pg16low+"</td>"+
+                        "<td>"+pg16high+"</td>"+
                         "</tr>" +
                         "</tbody>" +
                         "</table>"+

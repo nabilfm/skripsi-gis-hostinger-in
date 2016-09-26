@@ -58,11 +58,12 @@
                 <table class="highlight">
                     <thead>
                     <tr>
-                        <th data-field="id">NPSN</th>
-                        <th data-field="nama">Nama Sekolah</th>
-                        <th data-field="alamat">Alamat</th>
-                        <th data-field="jenjang">Jenjang</th>
-                        <th data-field="kecamatan">Kecamatan</th>
+                        <th rowspan="2" data-field="id">NPSN</th>
+                        <th rowspan="2" data-field="nama">Nama Sekolah</th>
+                        <th rowspan="2" data-field="alamat"><center>Alamat</center></th>
+                        <th rowspan="2" data-field="jenjang"><center>Jenjang</center></th>
+                        <th rowspan="2" data-field="kecamatan"><center>Kecamatan</center></th>
+                        <th colspan="2" data-field="psgrade"><center>Passing Grade</center></th>
                     </tr>
                     </thead>
             @forelse($smp as $dataSM)
@@ -73,6 +74,18 @@
                             <td>{{$dataSM->alamat}}</td>
                             <td>{{$dataSM->jenjang}}</td>
                             <td>{{$dataSM->kecamatan->nama}}</td>
+                            <td>
+                                <ul class="collection">
+                                    <li class="collection-item red lighten-4"><center>{{$dataSM->psgrade15low}}</center></li>
+                                    <li class="collection-item green lighten-4"><center>{{$dataSM->psgrade15high}}</center></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="collection">
+                                    <li class="collection-item red lighten-4"><center>{{$dataSM->psgrade16low}}</center></li>
+                                    <li class="collection-item green lighten-4"><center>{{$dataSM->psgrade16high}}</center></li>
+                                </ul>
+                            </td>
                             <td><a href="{{ route('edit.school',['npsn'=>$dataSM->npsn])}}" class="waves-effect waves-light btn green black-text">ubah</a></td>
                         </tr>
                 {{--@if(\Auth::check())--}}
@@ -138,11 +151,12 @@
                 <table class="highlight">
                     <thead>
                     <tr>
-                        <th data-field="id">NPSN</th>
-                        <th data-field="nama">Nama Sekolah</th>
-                        <th data-field="alamat">Alamat</th>
-                        <th data-field="jenjang">Jenjang</th>
-                        <th data-field="kecamatan">Kecamatan</th>
+                        <th rowspan="2" data-field="id">NPSN</th>
+                        <th rowspan="2" data-field="nama">Nama Sekolah</th>
+                        <th rowspan="2" data-field="alamat"><center>Alamat</center></th>
+                        <th rowspan="2" data-field="jenjang"><center>Jenjang</center></th>
+                        <th rowspan="2" data-field="kecamatan"><center>Kecamatan</center></th>
+                        <th colspan="2" data-field="psgrade"><center>Passing Grade</center></th>
                     </tr>
                     </thead>
             @forelse($sma as $dataSM)
@@ -153,6 +167,18 @@
                             <td>{{$dataSM->alamat}}</td>
                             <td>{{$dataSM->jenjang}}</td>
                             <td>{{$dataSM->kecamatan->nama}}</td>
+                            <td>
+                                <ul class="collection">
+                                    <li class="collection-item red lighten-4"><center>{{$dataSM->psgrade15low}}</center></li>
+                                    <li class="collection-item green lighten-4"><center>{{$dataSM->psgrade15high}}</center></li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="collection">
+                                    <li class="collection-item red lighten-4"><center>{{$dataSM->psgrade16low}}</center></li>
+                                    <li class="collection-item green lighten-4"><center>{{$dataSM->psgrade16high}}</center></li>
+                                </ul>
+                            </td>
                             <td><a href="{{ route('edit.school',['npsn'=>$dataSM->npsn])}}" class="waves-effect waves-light btn green black-text">ubah</a></td>
                         </tr>
                 {{--<a href="" class="black-text">--}}
