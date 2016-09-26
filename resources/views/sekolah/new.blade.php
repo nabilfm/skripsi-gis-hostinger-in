@@ -97,21 +97,21 @@
                             </div>
                         </div>
                         <div class="row">
-                            Passing grade
+                            <p>Passing grade</p>
                             <div class="input-field col s3">
-                                <input id="SC_psgrade15low" name="SC_psgrade15low" type="text" maxlength="1" length="1" value="{{{$sekolah->psgrade15low or ''}}}" required >
+                                <input id="SC_psgrade15low" name="SC_psgrade15low" type="text"step="0.01"  maxlength="1" length="1" value="{{{$sekolah->psgrade15low or ''}}}" required >
                                 <label for="SC_psgrade15low">Terendah 2015</label>
                             </div>
                             <div class="input-field col s3">
-                                <input id="SC_psgrade15high" name="SC_psgrade15high" type="number" maxlength="5" length="5" value="{{{$sekolah->psgrade15high or ''}}}" required >
+                                <input id="SC_psgrade15high" name="SC_psgrade15high" type="number" step="0.01" maxlength="5" length="5" value="{{{$sekolah->psgrade15high or ''}}}" required >
                                 <label for="SC_psgrade15high">Tertinggi 2015</label>
                             </div>
                             <div class="input-field col s3">
-                                <input id="SC_psgrade16low" name="SC_psgrade16low" type="text" maxlength="1" length="1" value="{{{$sekolah->psgrade16low or ''}}}" required >
+                                <input id="SC_psgrade16low" name="SC_psgrade16low" type="text" step="0.01" maxlength="5" length="5" value="{{{$sekolah->psgrade16low or ''}}}" required >
                                 <label for="SC_psgrade16low">Terendah 2016</label>
                             </div>
                             <div class="input-field col s3">
-                                <input id="SC_psgrade16high" name="SC_psgrade16high" type="number" maxlength="5" length="5" value="{{{$sekolah->psgrade16high or ''}}}" required >
+                                <input id="SC_psgrade16high" name="SC_psgrade16high" type="number" step="0.01" maxlength="5" length="5" value="{{{$sekolah->psgrade16high or ''}}}" required >
                                 <label for="SC_psgrade16high">Tertinggi 2016</label>
                             </div>
                         </div>

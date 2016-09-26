@@ -116,6 +116,7 @@
                         "</tr>" +
                         "</tbody>" +
                         "</table>"+
+                        "<br/>"+
                         "<table class='centered bordered'>"+
                         "<thead>"+
                         "<tr>"+
@@ -227,7 +228,7 @@
                     menuju(lokasi['latitude'],lokasi['longitude']);
                 }else{
                     marker = L.marker([parseFloat(lokasi['latitude']), parseFloat(lokasi['longitude'])]).addTo(mymap)
-                            .bindPopup(popupContent(lokasi['nama'],lokasi['alamat'],lokasi['latitude'],lokasi['longitude']),customOptions).openPopup();
+                            .bindPopup(popupContent(lokasi['nama'],lokasi['alamat'],lokasi['latitude'],lokasi['longitude'],lokasi['psgrade15low'],lokasi['psgrade15high'],lokasi['psgrade16low'],lokasi['psgrade16high']),customOptions).openPopup();
                 }
 
             }
