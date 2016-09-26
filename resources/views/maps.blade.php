@@ -116,6 +116,25 @@
                         "</tr>" +
                         "</tbody>" +
                         "</table>"+
+                        "<table class='centered bordered'>"+
+                        "<thead>"+
+                        "<tr>"+
+                        "<th colspan='2'>Passing Grade</th>"+
+                        "</tr>"+
+                        "<tr>"+
+                        "<th data-field='id'>latitude</th>"+
+                        "<th data-field='name'>longitude</th>"+
+                        "</tr>"+
+                        "</thead>"+
+                        "<tbody>"+
+                        "<tr>"+
+                        "<td>"+sc['psgrade15low']+"</td>"+
+                        "<td>"+sc['psgrade15high']+"</td>"+
+                        "<td>"+sc['psgrade16low']+"</td>"+
+                        "<td>"+sc['psgrade16high']+"</td>"+
+                        "</tr>" +
+                        "</tbody>" +
+                        "</table>"+
                         "<br><center><a class='waves-effect white-text waves-light center green btn-flat' onclick='menuju("+latitude+","+longitude+");'>Arahkan</a></center>";
                 return pc;
             }

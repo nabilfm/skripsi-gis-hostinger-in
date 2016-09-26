@@ -34,14 +34,14 @@
                     <tr>
                         <th rowspan="2" data-field="id">NPSN</th>
                         <th rowspan="2" data-field="nama">Nama Sekolah</th>
-                        <th rowspan="2" data-field="alamat">Alamat</th>
-                        <th rowspan="2" data-field="jenjang">Jenjang</th>
-                        <th rowspan="2" data-field="kecamatan">Kecamatan</th>
-                        <th colspan="2" data-field="psgrade">Passing Grade</th>
+                        <th rowspan="2" data-field="alamat"><center>Alamat</center></th>
+                        <th rowspan="2" data-field="jenjang"><center>Jenjang</center></th>
+                        <th rowspan="2" data-field="kecamatan"><center>Kecamatan</center></th>
+                        <th colspan="2" data-field="psgrade"><center>Passing Grade</center></th>
                     </tr>
                     <tr>
-                        <th data-field="kecamatan">Tahun 2015</th>
-                        <th data-field="psgrade">Tahun 2016</th>
+                        <th data-field="kecamatan"><center>Tahun 2015</center></th>
+                        <th data-field="psgrade"><center>Tahun 2016</center></th>
                     </tr>
                     </thead>
                     @forelse($smp as $dataSM)
@@ -54,14 +54,14 @@
                             <td>{{$dataSM->kecamatan->nama}}</td>
                             <td>
                                 <ul class="collection">
-                                    <li class="collection-item">{{$dataSM->psgrade15low}}</li>
-                                    <li class="collection-item">{{$dataSM->psgrade15high}}</li>
+                                    <li class="collection-item red lighten-4"><center>{{$dataSM->psgrade15low}}</center></li>
+                                    <li class="collection-item green lighten-4"><center>{{$dataSM->psgrade15high}}</center></li>
                                 </ul>
                             </td>
                             <td>
                                 <ul class="collection">
-                                    <li class="collection-item">{{$dataSM->psgrade16low}}</li>
-                                    <li class="collection-item">{{$dataSM->psgrade16high}}</li>
+                                    <li class="collection-item red lighten-4"><center>{{$dataSM->psgrade16low}}</center></li>
+                                    <li class="collection-item green lighten-4"><center>{{$dataSM->psgrade16high}}</center></li>
                                 </ul>
                             </td>
                             <td><a href="{{ route('map.sekolah',['npsn'=>$dataSM->npsn])}}" class="waves-effect waves-light btn green black-text">peta</a></td>

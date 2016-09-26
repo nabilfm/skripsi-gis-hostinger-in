@@ -217,6 +217,25 @@
                                 "</table>"+
                                 "<p class='center'>Akreditasi <strong>"+sc['akreditasi']+"</strong></p>" +
                                 "<br>" +
+                                "<table class='centered bordered'>"+
+                                "<thead>"+
+                                "<tr>"+
+                                "<th colspan='2'>Passing Grade</th>"+
+                                "</tr>"+
+                                "<tr>"+
+                                "<th data-field='id'>latitude</th>"+
+                                "<th data-field='name'>longitude</th>"+
+                                "</tr>"+
+                                "</thead>"+
+                                "<tbody>"+
+                                "<tr>"+
+                                "<td>"+sc['psgrade15low']+"</td>"+
+                                "<td>"+sc['psgrade15high']+"</td>"+
+                                "<td>"+sc['psgrade16low']+"</td>"+
+                                "<td>"+sc['psgrade16high']+"</td>"+
+                                "</tr>" +
+                                "</tbody>" +
+                                "</table>"+
                                 "<center><a class='waves-effect white-text waves-light center green btn-flat' onclick='direct("+sc['npsn']+");'>Arahkan</a></center>";
                         icon = L.MakiMarkers.icon({icon: ikon[sc['jenjang']], color: warna[sc['kecamatan_id']], size: "m"});
                         marker = L.marker([parseFloat(sc['latitude']), parseFloat(sc['longitude'])],{icon:icon}).addTo(mymap)
