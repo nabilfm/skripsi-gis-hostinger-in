@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38cd7a8-2399-4fb2-9086-ca4efc01e5da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/admin.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/admin.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/guest.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/guest.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/maps.blade.php" afterPath="$PROJECT_DIR$/resources/views/maps.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" afterPath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
     </list>
     <ignored path="bismillah.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,13 +72,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="356" column="18" selection-start-line="356" selection-start-column="18" selection-end-line="356" selection-end-column="18" />
+            <state relative-caret-position="219">
+              <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
               <folding>
-                <marker date="1474881787156" expanded="true" signature="18177:18183" ph="©" />
+                <marker date="1474882783840" expanded="true" signature="18182:18188" ph="©" />
               </folding>
             </state>
           </provider>
@@ -110,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guest.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="guest.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home/guest.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="-5">
               <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
               <folding />
             </state>
@@ -182,10 +179,10 @@
         <option value="$PROJECT_DIR$/resources/views/beranda.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
-        <option value="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/maps.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/admin.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/guest.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
       </list>
     </option>
   </component>
@@ -496,12 +493,12 @@
       <workItem from="1472550972542" duration="3034000" />
       <workItem from="1473784025067" duration="1473000" />
       <workItem from="1473817313227" duration="6308000" />
-      <workItem from="1474876817287" duration="5854000" />
+      <workItem from="1474876817287" duration="5964000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240250000" />
+    <option name="totallyTimeSpent" value="240360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -891,16 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="356" column="18" selection-start-line="356" selection-start-column="18" selection-end-line="356" selection-end-column="18" />
-          <folding>
-            <marker date="1474881787156" expanded="true" signature="18177:18183" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/maps.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -922,9 +909,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/guest.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
+        <state relative-caret-position="-5">
           <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+          <folding>
+            <marker date="1474882783840" expanded="true" signature="18182:18188" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>

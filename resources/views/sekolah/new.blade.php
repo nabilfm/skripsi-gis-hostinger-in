@@ -99,7 +99,7 @@
                         <div class="row">
                             <p>Passing grade</p>
                             <div class="input-field col s3">
-                                <input id="SC_psgrade15low" name="SC_psgrade15low" type="text"step="0.01"  maxlength="1" length="1" value="{{{$sekolah->psgrade15low or ''}}}" required >
+                                <input id="SC_psgrade15low" name="SC_psgrade15low" type="number"step="0.01"  maxlength="5" length="5" value="{{{$sekolah->psgrade15low or ''}}}" required >
                                 <label for="SC_psgrade15low">Terendah 2015</label>
                             </div>
                             <div class="input-field col s3">
@@ -107,7 +107,7 @@
                                 <label for="SC_psgrade15high">Tertinggi 2015</label>
                             </div>
                             <div class="input-field col s3">
-                                <input id="SC_psgrade16low" name="SC_psgrade16low" type="text" step="0.01" maxlength="5" length="5" value="{{{$sekolah->psgrade16low or ''}}}" required >
+                                <input id="SC_psgrade16low" name="SC_psgrade16low" type="number" step="0.01" maxlength="5" length="5" value="{{{$sekolah->psgrade16low or ''}}}" required >
                                 <label for="SC_psgrade16low">Terendah 2016</label>
                             </div>
                             <div class="input-field col s3">
@@ -118,7 +118,7 @@
                         <div class="row">
                             <div class="input-field col s6">
                                 <input id="SC_kelurahan" name="SC_kelurahan" type="text" maxlength="15" length="15" value="{{{$sekolah->kelurahan or ''}}}" required >
-                                <label for="SC_kelurahan">Kelurahan</label
+                                <label for="SC_kelurahan">Kelurahan</label>
                             </div>
                             <div class="input-field col s6">
                                 @if($label==="Sekolah Baru")
