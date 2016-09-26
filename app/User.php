@@ -10,7 +10,7 @@ class User extends Model implements Authenticatable
     //
     //
     //
-    protected $table = 'admin';
+    protected $table = 'adminbaru';
     protected $hidden = 'password';
     use \Illuminate\Auth\Authenticatable;
 
