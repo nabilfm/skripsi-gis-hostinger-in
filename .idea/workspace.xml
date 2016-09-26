@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f38cd7a8-2399-4fb2-9086-ca4efc01e5da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" afterPath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
     </list>
     <ignored path="bismillah.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,20 +65,23 @@
       <file leaf-file-name="kontrolSekolah.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="31" />
-              <folding />
+            <state relative-caret-position="186">
+              <caret line="160" column="40" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="40" />
+              <folding>
+                <marker date="1474879895419" expanded="true" signature="8049:8167" ph="..." />
+                <marker date="1474879895419" expanded="true" signature="8332:8447" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="250">
+              <caret line="102" column="77" selection-start-line="102" selection-start-column="77" selection-end-line="102" selection-end-column="77" />
               <folding>
-                <marker date="1473825482082" expanded="true" signature="16240:16246" ph="©" />
+                <marker date="1474880038363" expanded="true" signature="18122:18128" ph="©" />
               </folding>
             </state>
           </provider>
@@ -85,31 +90,21 @@
       <file leaf-file-name="maps.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/maps.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="130" column="47" selection-start-line="130" selection-start-column="47" selection-end-line="130" selection-end-column="47" />
+            <state relative-caret-position="301">
+              <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
               <folding>
-                <marker date="1474878811745" expanded="true" signature="4750:4778" ph="..." />
-                <marker date="1474878811745" expanded="true" signature="7535:7541" ph="©" />
+                <marker date="1474879739833" expanded="true" signature="4750:4778" ph="..." />
+                <marker date="1474879739833" expanded="true" signature="7535:7541" ph="©" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guest.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home/guest.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="56" column="109" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="109" />
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -161,16 +156,16 @@
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/resources/views/home/admin.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
         <option value="$PROJECT_DIR$/app/Sekolah.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/login.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/kontrolAdmin.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/guest.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/beranda.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/maps.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/maps.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
+        <option value="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
       </list>
     </option>
   </component>
@@ -481,12 +476,12 @@
       <workItem from="1472550972542" duration="3034000" />
       <workItem from="1473784025067" duration="1473000" />
       <workItem from="1473817313227" duration="6308000" />
-      <workItem from="1474876817287" duration="2782000" />
+      <workItem from="1474876817287" duration="3241000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237178000" />
+    <option name="totallyTimeSpent" value="237637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -842,32 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <marker date="1473825482082" expanded="true" signature="16240:16246" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/guest.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="56" column="109" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/beranda.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -890,22 +859,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/maps.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home/guest.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="130" column="47" selection-start-line="130" selection-start-column="47" selection-end-line="130" selection-end-column="47" />
-          <folding>
-            <marker date="1474878811745" expanded="true" signature="4750:4778" ph="..." />
-            <marker date="1474878811745" expanded="true" signature="7535:7541" ph="©" />
-          </folding>
+        <state relative-caret-position="318">
+          <caret line="56" column="109" selection-start-line="56" selection-start-column="97" selection-end-line="56" selection-end-column="109" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/maps.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="138" column="26" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
+          <folding>
+            <marker date="1474879739833" expanded="true" signature="4750:4778" ph="..." />
+            <marker date="1474879739833" expanded="true" signature="7535:7541" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="160" column="40" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="40" />
+          <folding>
+            <marker date="1474879895419" expanded="true" signature="8049:8167" ph="..." />
+            <marker date="1474879895419" expanded="true" signature="8332:8447" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="102" column="77" selection-start-line="102" selection-start-column="77" selection-end-line="102" selection-end-column="77" />
+          <folding>
+            <marker date="1474880038363" expanded="true" signature="18122:18128" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>

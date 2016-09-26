@@ -87,9 +87,32 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="input-field col s12">
+                            <div class="input-field col s6">
+                                <input id="SC_akreditasi" name="SC_akreditasi" type="text" maxlength="1" length="1" value="{{{$sekolah->akreditasi or ''}}}" required >
+                                <label for="SC_akreditasi">Akreditasi</label>
+                            </div>
+                            <div class="input-field col s6">
                                 <input id="SC_kdpos" name="SC_kdpos" type="number" maxlength="5" length="5" value="{{{$sekolah->kdpos or ''}}}" required >
                                 <label for="SC_kdpos">Kode Pos</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            Passing grade
+                            <div class="input-field col s3">
+                                <input id="SC_psgrade15low" name="SC_psgrade15low" type="text" maxlength="1" length="1" value="{{{$sekolah->psgrade15low or ''}}}" required >
+                                <label for="SC_psgrade15low">Terendah 2015</label>
+                            </div>
+                            <div class="input-field col s3">
+                                <input id="SC_psgrade15high" name="SC_psgrade15high" type="number" maxlength="5" length="5" value="{{{$sekolah->psgrade15high or ''}}}" required >
+                                <label for="SC_psgrade15high">Tertinggi 2015</label>
+                            </div>
+                            <div class="input-field col s3">
+                                <input id="SC_psgrade16low" name="SC_psgrade16low" type="text" maxlength="1" length="1" value="{{{$sekolah->psgrade16low or ''}}}" required >
+                                <label for="SC_psgrade16low">Terendah 2016</label>
+                            </div>
+                            <div class="input-field col s3">
+                                <input id="SC_psgrade16high" name="SC_psgrade16high" type="number" maxlength="5" length="5" value="{{{$sekolah->psgrade16high or ''}}}" required >
+                                <label for="SC_psgrade16high">Tertinggi 2016</label>
                             </div>
                         </div>
                         <div class="row">

@@ -157,6 +157,11 @@ class kontrolSekolah extends Controller
         $npsn       = $minta['SC_label'];
         $nama       = $minta['SC_name'];
         $address    = $minta['SC_address'];
+        $address    = $minta['SC_akreditasi'];
+        $psg15low   = (float)$minta['lat'];
+        $psg15high  = (float)$minta['lat'];
+        $psg16low   = (float)$minta['lat'];
+        $psg16high  = (float)$minta['lat'];
         $latitude   = (float)substr($minta['lat'],0,12);
         $longitude  = (float)substr($minta['lon'],0,12);
         $kdpos      = $minta['SC_kdpos'];
