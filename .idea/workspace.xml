@@ -4,6 +4,7 @@
     <list default="true" id="f38cd7a8-2399-4fb2-9086-ca4efc01e5da" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" afterPath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
     </list>
     <ignored path="bismillah.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +38,7 @@
       <file leaf-file-name="beranda.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/beranda.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
+            <state relative-caret-position="4029">
               <caret line="237" column="43" selection-start-line="219" selection-start-column="32" selection-end-line="237" selection-end-column="43" />
               <folding>
                 <element signature="e#0#15180#0#Blade" expanded="false" />
@@ -63,11 +64,11 @@
       <file leaf-file-name="kontrolSekolah.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="207" column="39" selection-start-line="207" selection-start-column="39" selection-end-line="207" selection-end-column="39" />
+            <state relative-caret-position="102">
+              <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
               <folding>
-                <marker date="1474883093588" expanded="true" signature="8383:8501" ph="..." />
-                <marker date="1474883093588" expanded="true" signature="8666:8781" ph="..." />
+                <marker date="1474923138259" expanded="true" signature="8381:8499" ph="..." />
+                <marker date="1474923138259" expanded="true" signature="8664:8779" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,10 +77,10 @@
       <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="101" column="81" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="81" />
+            <state relative-caret-position="559">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
               <folding>
-                <marker date="1474882783840" expanded="true" signature="18182:18188" ph="©" />
+                <marker date="1474923090172" expanded="true" signature="18186:18192" ph="©" />
               </folding>
             </state>
           </provider>
@@ -88,7 +89,7 @@
       <file leaf-file-name="maps.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/maps.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+            <state relative-caret-position="2108">
               <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
               <folding>
                 <marker date="1474882557278" expanded="true" signature="4788:4816" ph="..." />
@@ -111,7 +112,7 @@
       <file leaf-file-name="guest.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home/guest.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
+            <state relative-caret-position="1717">
               <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
               <folding />
             </state>
@@ -121,7 +122,7 @@
       <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home/admin.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="1190">
               <caret line="70" column="25" selection-start-line="67" selection-start-column="20" selection-end-line="70" selection-end-column="25" />
               <folding />
             </state>
@@ -200,7 +201,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -228,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -379,7 +381,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -494,18 +495,20 @@
       <workItem from="1472550972542" duration="3034000" />
       <workItem from="1473784025067" duration="1473000" />
       <workItem from="1473817313227" duration="6308000" />
-      <workItem from="1474876817287" duration="6277000" />
+      <workItem from="1474876817287" duration="6479000" />
+      <workItem from="1474906543063" duration="41000" />
+      <workItem from="1474922954880" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240673000" />
+    <option name="totallyTimeSpent" value="241095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1370" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20717423" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20901033" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.50292826" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -850,7 +853,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/beranda.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="4029">
           <caret line="237" column="43" selection-start-line="219" selection-start-column="32" selection-end-line="237" selection-end-column="43" />
           <folding>
             <element signature="e#0#15180#0#Blade" expanded="false" />
@@ -866,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/maps.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="2108">
           <caret line="124" column="31" selection-start-line="124" selection-start-column="31" selection-end-line="124" selection-end-column="31" />
           <folding>
             <marker date="1474882557278" expanded="true" signature="4788:4816" ph="..." />
@@ -891,7 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="1190">
           <caret line="70" column="25" selection-start-line="67" selection-start-column="20" selection-end-line="70" selection-end-column="25" />
           <folding />
         </state>
@@ -899,7 +901,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/guest.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
+        <state relative-caret-position="1717">
           <caret line="101" column="25" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
           <folding />
         </state>
@@ -907,21 +909,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="101" column="81" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="81" />
+        <state relative-caret-position="559">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
           <folding>
-            <marker date="1474882783840" expanded="true" signature="18182:18188" ph="©" />
+            <marker date="1474923090172" expanded="true" signature="18186:18192" ph="©" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="207" column="39" selection-start-line="207" selection-start-column="39" selection-end-line="207" selection-end-column="39" />
+        <state relative-caret-position="102">
+          <caret line="179" column="0" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding>
-            <marker date="1474883093588" expanded="true" signature="8383:8501" ph="..." />
-            <marker date="1474883093588" expanded="true" signature="8666:8781" ph="..." />
+            <marker date="1474923138259" expanded="true" signature="8381:8499" ph="..." />
+            <marker date="1474923138259" expanded="true" signature="8664:8779" ph="..." />
           </folding>
         </state>
       </provider>

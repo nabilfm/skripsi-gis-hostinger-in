@@ -32,7 +32,7 @@
 						<div class="row">
                             <div class="col s12 m6 l6">
                                 <label>Foto Sekolah</label>
-                                @if($label === 'Sekolah Baru')
+                                @if($label === 'Perbarui Sekolah')
                                     @if(count($sekolah->gambar))
                                         <center><img id="imgPreview" src="{{ url($sekolah->gambar->path.$sekolah->gambar->filename)}}" style="width: 125px;height: 125px"></center>
                                     @endif

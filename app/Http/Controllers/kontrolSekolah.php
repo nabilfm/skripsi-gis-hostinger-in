@@ -176,7 +176,7 @@ class kontrolSekolah extends Controller
         $status     = 'negeri';
 //        $jenjang    = 'sma';
 //        $status     = $minta['SC_status'];
-//        dd($minta->all());
+        dd($minta->all());
 
         $namarute   = Route::currentRouteName();
         if ($namarute === 'school.update') {
