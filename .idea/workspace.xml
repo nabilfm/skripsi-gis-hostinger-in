@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38cd7a8-2399-4fb2-9086-ca4efc01e5da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" afterPath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
     </list>
     <ignored path="bismillah.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,24 +60,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kontrolSekolah.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kontrolSekolah.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="160" column="40" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="40" />
+            <state relative-caret-position="424">
+              <caret line="207" column="39" selection-start-line="207" selection-start-column="39" selection-end-line="207" selection-end-column="39" />
               <folding>
-                <marker date="1474879895419" expanded="true" signature="8049:8167" ph="..." />
-                <marker date="1474879895419" expanded="true" signature="8332:8447" ph="..." />
+                <marker date="1474883093588" expanded="true" signature="8383:8501" ph="..." />
+                <marker date="1474883093588" expanded="true" signature="8666:8781" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+            <state relative-caret-position="270">
+              <caret line="101" column="81" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="81" />
               <folding>
                 <marker date="1474882783840" expanded="true" signature="18182:18188" ph="©" />
               </folding>
@@ -178,11 +179,11 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/beranda.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
         <option value="$PROJECT_DIR$/resources/views/maps.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/admin.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/guest.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
       </list>
     </option>
   </component>
@@ -493,12 +494,12 @@
       <workItem from="1472550972542" duration="3034000" />
       <workItem from="1473784025067" duration="1473000" />
       <workItem from="1473817313227" duration="6308000" />
-      <workItem from="1474876817287" duration="5964000" />
+      <workItem from="1474876817287" duration="6277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240360000" />
+    <option name="totallyTimeSpent" value="240673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -869,17 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="160" column="40" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="40" />
-          <folding>
-            <marker date="1474879895419" expanded="true" signature="8049:8167" ph="..." />
-            <marker date="1474879895419" expanded="true" signature="8332:8447" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -917,10 +907,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+        <state relative-caret-position="270">
+          <caret line="101" column="81" selection-start-line="101" selection-start-column="66" selection-end-line="101" selection-end-column="81" />
           <folding>
             <marker date="1474882783840" expanded="true" signature="18182:18188" ph="©" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="207" column="39" selection-start-line="207" selection-start-column="39" selection-end-line="207" selection-end-column="39" />
+          <folding>
+            <marker date="1474883093588" expanded="true" signature="8383:8501" ph="..." />
+            <marker date="1474883093588" expanded="true" signature="8666:8781" ph="..." />
           </folding>
         </state>
       </provider>
