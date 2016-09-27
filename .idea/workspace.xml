@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38cd7a8-2399-4fb2-9086-ca4efc01e5da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/beranda.blade.php" afterPath="$PROJECT_DIR$/resources/views/beranda.blade.php" />
     </list>
     <ignored path="bismillah.iws" />
@@ -37,16 +36,16 @@
       <file leaf-file-name="beranda.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/beranda.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+            <state relative-caret-position="210">
+              <caret line="266" column="24" selection-start-line="266" selection-start-column="24" selection-end-line="266" selection-end-column="24" />
               <folding>
-                <element signature="e#6526#7038#0#HTML" expanded="false" />
-                <element signature="e#7217#10519#0#HTML" expanded="false" />
-                <element signature="e#0#16121#0#Blade" expanded="false" />
-                <marker date="1474968221064" expanded="true" signature="6609:6615" ph="©" />
-                <marker date="1474968221064" expanded="true" signature="10250:10262" ph="..." />
-                <marker date="1474968221064" expanded="true" signature="10942:10970" ph="..." />
-                <marker date="1474968221064" expanded="true" signature="14634:14646" ph="..." />
+                <element signature="e#6558#7070#0#HTML" expanded="false" />
+                <element signature="e#7249#10551#0#HTML" expanded="false" />
+                <element signature="e#0#16178#0#Blade" expanded="false" />
+                <marker date="1474968735933" expanded="true" signature="6641:6647" ph="©" />
+                <marker date="1474968735933" expanded="true" signature="10282:10294" ph="..." />
+                <marker date="1474968735933" expanded="true" signature="10974:11002" ph="..." />
+                <marker date="1474968735933" expanded="true" signature="14691:14703" ph="..." />
               </folding>
             </state>
           </provider>
@@ -318,12 +317,12 @@
       <workItem from="1474922954880" duration="1027000" />
       <workItem from="1474938769427" duration="32000" />
       <workItem from="1474939065883" duration="2806000" />
-      <workItem from="1474967515420" duration="698000" />
+      <workItem from="1474967515420" duration="1216000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245479000" />
+    <option name="totallyTimeSpent" value="245997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="745" extended-state="0" />
@@ -729,16 +728,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/beranda.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="266" column="24" selection-start-line="266" selection-start-column="24" selection-end-line="266" selection-end-column="24" />
           <folding>
-            <element signature="e#6526#7038#0#HTML" expanded="false" />
-            <element signature="e#7217#10519#0#HTML" expanded="false" />
-            <element signature="e#0#16121#0#Blade" expanded="false" />
-            <marker date="1474968221064" expanded="true" signature="6609:6615" ph="©" />
-            <marker date="1474968221064" expanded="true" signature="10250:10262" ph="..." />
-            <marker date="1474968221064" expanded="true" signature="10942:10970" ph="..." />
-            <marker date="1474968221064" expanded="true" signature="14634:14646" ph="..." />
+            <element signature="e#6558#7070#0#HTML" expanded="false" />
+            <element signature="e#7249#10551#0#HTML" expanded="false" />
+            <element signature="e#0#16178#0#Blade" expanded="false" />
+            <marker date="1474968735933" expanded="true" signature="6641:6647" ph="©" />
+            <marker date="1474968735933" expanded="true" signature="10282:10294" ph="..." />
+            <marker date="1474968735933" expanded="true" signature="10974:11002" ph="..." />
+            <marker date="1474968735933" expanded="true" signature="14691:14703" ph="..." />
           </folding>
         </state>
       </provider>

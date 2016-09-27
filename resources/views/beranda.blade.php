@@ -93,7 +93,8 @@
         <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
         <script src="{{asset('smbr/js/leaflet/makimarkers/Leaflet.MakiMarkers.js')}}"></script>
         <script>
-            var mymap       = L.map('mapid').setView([-6.4178, 106.8197], 12);
+            var mymap       = L.map('mapid').setView([-6.4178, 106.8197], 12),
+                    legend;
             var marker,icon,openpc,popupcontent,closepc;
             var arrmarker = [];
             var customOptions,maxzoom;
@@ -122,7 +123,7 @@
             }
             function onClick() {
                 alert('yeaay');
-                //mymap.removeControl();
+                mymap.removeControl(legend);
             }
 
             $(document).ready(function(){
@@ -257,12 +258,13 @@
                                 "</table>"+
                                 "<center><a class='waves-effect white-text waves-light center green btn-flat' onclick='direct("+sc['npsn']+");'>Arahkan</a></center>";
                         icon = L.MakiMarkers.icon({icon: ikon[sc['jenjang']], color: warna[sc['kecamatan_id']], size: "m"});
-                        marker = L.marker([parseFloat(sc['latitude']), parseFloat(sc['longitude'])],{icon:icon}).addTo(mymap)
+                        marker = L.marker([parseFloat(sc['latitude']), parseFloat(sc['longitude'])],{icon:icon})
+                                .addTo(mymap)
+                                .on('click', onClick)
                                 //                            .bindPopup(popupcontent,customOptions).openPopup();
-                                .bindPopup(popupcontent,customOptions)
-                                .on('mouseover', onClick);
+                                .bindPopup(popupcontent,customOptions);
                         arrmarker.push(marker);
-                        var legend = L.control({position: 'bottomright'});
+                        legend = L.control({position: 'bottomright'});
                         legend.onAdd = function (map) {
                             var div    = L.DomUtil.create('div','info legend'),
                                     grades= selkec,
