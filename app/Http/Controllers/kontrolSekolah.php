@@ -208,7 +208,7 @@ class kontrolSekolah extends Controller
         $sekolah->fax           = $fax;
         $sekolah->email         = $email;
         $sekolah->website       = $website;
-        dd($sekolah);
+//        dd($sekolah);
         $kc                 = Kecamatan::find((int)$kecamatan);
         $path               = 'smbr/img/'.strtolower($kc->nama).'/'.$jenjang.'/'.$npsn.'/';
         if($sekolah->save()){

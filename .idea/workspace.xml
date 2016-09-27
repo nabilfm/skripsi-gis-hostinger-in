@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f38cd7a8-2399-4fb2-9086-ca4efc01e5da" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/beranda.blade.php" afterPath="$PROJECT_DIR$/resources/views/beranda.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" afterPath="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
     </list>
     <ignored path="bismillah.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beranda.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="beranda.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/beranda.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="1037">
               <caret line="226" column="86" selection-start-line="226" selection-start-column="86" selection-end-line="226" selection-end-column="86" />
               <folding>
                 <element signature="e#0#15409#0#Blade" expanded="false" />
@@ -64,23 +63,23 @@
       <file leaf-file-name="kontrolSekolah.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="210" column="19" selection-start-line="210" selection-start-column="19" selection-end-line="210" selection-end-column="19" />
+            <state relative-caret-position="284">
+              <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
               <folding>
-                <marker date="1474939672551" expanded="true" signature="8404:8522" ph="..." />
-                <marker date="1474939672551" expanded="true" signature="8687:8802" ph="..." />
+                <marker date="1474940150103" expanded="true" signature="8406:8524" ph="..." />
+                <marker date="1474940150103" expanded="true" signature="8689:8804" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-697">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            <state relative-caret-position="187">
+              <caret line="101" column="145" selection-start-line="101" selection-start-column="145" selection-end-line="101" selection-end-column="145" />
               <folding>
-                <marker date="1474923090172" expanded="true" signature="18186:18192" ph="©" />
+                <marker date="1474940173174" expanded="true" signature="18150:18156" ph="©" />
               </folding>
             </state>
           </provider>
@@ -182,9 +181,9 @@
         <option value="$PROJECT_DIR$/resources/views/maps.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/admin.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/home/guest.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/beranda.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php" />
+        <option value="$PROJECT_DIR$/resources/views/sekolah/new.blade.php" />
       </list>
     </option>
   </component>
@@ -351,12 +350,12 @@
       <workItem from="1474906543063" duration="41000" />
       <workItem from="1474922954880" duration="1027000" />
       <workItem from="1474938769427" duration="32000" />
-      <workItem from="1474939065883" duration="583000" />
+      <workItem from="1474939065883" duration="1076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242558000" />
+    <option name="totallyTimeSpent" value="243051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="745" extended-state="0" />
@@ -747,30 +746,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-          <folding>
-            <marker date="1474923090172" expanded="true" signature="18186:18192" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="210" column="19" selection-start-line="210" selection-start-column="19" selection-end-line="210" selection-end-column="19" />
-          <folding>
-            <marker date="1474939672551" expanded="true" signature="8404:8522" ph="..." />
-            <marker date="1474939672551" expanded="true" signature="8687:8802" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/beranda.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="1037">
           <caret line="226" column="86" selection-start-line="226" selection-start-column="86" selection-end-line="226" selection-end-column="86" />
           <folding>
             <element signature="e#0#15409#0#Blade" expanded="false" />
@@ -778,6 +756,27 @@
             <marker date="1474923364936" expanded="true" signature="9596:9608" ph="..." />
             <marker date="1474923364936" expanded="true" signature="10288:10316" ph="..." />
             <marker date="1474923364936" expanded="true" signature="13922:13934" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/kontrolSekolah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="211" column="23" selection-start-line="211" selection-start-column="23" selection-end-line="211" selection-end-column="23" />
+          <folding>
+            <marker date="1474940150103" expanded="true" signature="8406:8524" ph="..." />
+            <marker date="1474940150103" expanded="true" signature="8689:8804" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/sekolah/new.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="101" column="145" selection-start-line="101" selection-start-column="145" selection-end-line="101" selection-end-column="145" />
+          <folding>
+            <marker date="1474940173174" expanded="true" signature="18150:18156" ph="©" />
           </folding>
         </state>
       </provider>
