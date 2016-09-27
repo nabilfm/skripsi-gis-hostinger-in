@@ -96,6 +96,7 @@
             var mymap       = L.map('mapid').setView([-6.4178, 106.8197], 12);
             var marker,icon,openpc,popupcontent,closepc;
             var arrmarker = [];
+            var customOptions,maxzoom;
             var jenjang;
             var j = 0;
             var warna = ["","#22313F","#F62459","#9A12B3","#2574A9","#26A65B","#F7CA18","#F1A9A0","#F89406","#FDE3A7","#6C7A89","#86E2D5"];
@@ -119,6 +120,10 @@
                 }
                 window.location = "/peta-sekolah/jenjang/"+jenjang;
             }
+            function onClick() {
+                alert('yeaay');
+                //mymap.removeControl();
+            }
 
             $(document).ready(function(){
                 $('select').material_select();
@@ -127,15 +132,27 @@
                     var jsjj = parseInt($('#SC_jenjang').val());
                     halaman(jsjj,jskc);
                 });
-                var customOptions =
-                {
-                    'maxHeight': '300',
-                    'maxWidth': '700',
-                    'className' : 'custom'
-                };
+                if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                    // some code..
+                    customOptions =
+                    {
+                        'maxHeight': '300',
+                        'maxWidth': '400',
+                        'className' : 'custom'
+                    };
+                    maxzoom=12;
+                }else{
+                    customOptions =
+                    {
+                        'maxHeight': '300',
+                        'maxWidth': '700',
+                        'className' : 'custom'
+                    };
+                    maxzoom=18;
+                }
 
                 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                    maxZoom: 18,
+                    maxZoom: maxzoom,
                     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
                     '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
                     'Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -242,7 +259,8 @@
                         icon = L.MakiMarkers.icon({icon: ikon[sc['jenjang']], color: warna[sc['kecamatan_id']], size: "m"});
                         marker = L.marker([parseFloat(sc['latitude']), parseFloat(sc['longitude'])],{icon:icon}).addTo(mymap)
                                 //                            .bindPopup(popupcontent,customOptions).openPopup();
-                                .bindPopup(popupcontent,customOptions);
+                                .bindPopup(popupcontent,customOptions)
+                                .on('mouseover', onClick);
                         arrmarker.push(marker);
                         var legend = L.control({position: 'bottomright'});
                         legend.onAdd = function (map) {
