@@ -137,7 +137,7 @@
                         'maxWidth': '300',
                         'className' : 'custom'
                     };
-                    maxzoom=10;
+                    maxzoom=12;
                 }else{
                     customOptions =
                     {
