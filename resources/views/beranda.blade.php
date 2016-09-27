@@ -121,10 +121,6 @@
                 }
                 window.location = "/peta-sekolah/jenjang/"+jenjang;
             }
-            function onClick() {
-                alert('yeaay');
-                mymap.removeControl(legend);
-            }
 
             $(document).ready(function(){
                 $('select').material_select();
@@ -260,7 +256,6 @@
                         icon = L.MakiMarkers.icon({icon: ikon[sc['jenjang']], color: warna[sc['kecamatan_id']], size: "m"});
                         marker = L.marker([parseFloat(sc['latitude']), parseFloat(sc['longitude'])],{icon:icon})
                                 .addTo(mymap)
-                                .on('click', onClick)
                                 //                            .bindPopup(popupcontent,customOptions).openPopup();
                                 .bindPopup(popupcontent,customOptions);
                         arrmarker.push(marker);
@@ -281,6 +276,9 @@
                 }
                 legend.addTo(mymap);
                 var group = new L.featureGroup(arrmarker);
+                group.on('click', function () {
+                    alert('yeay');
+                });
                 mymap.fitBounds(group.getBounds());
             });
         </script>
