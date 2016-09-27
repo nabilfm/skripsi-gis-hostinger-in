@@ -176,7 +176,7 @@ class kontrolSekolah extends Controller
         $status     = 'negeri';
 //        $jenjang    = 'sma';
 //        $status     = $minta['SC_status'];
-        dd($minta->all());
+//        dd($minta->all());
 
         $namarute   = Route::currentRouteName();
         if ($namarute === 'school.update') {
@@ -208,7 +208,7 @@ class kontrolSekolah extends Controller
         $sekolah->fax           = $fax;
         $sekolah->email         = $email;
         $sekolah->website       = $website;
-
+        dd($sekolah);
         $kc                 = Kecamatan::find((int)$kecamatan);
         $path               = 'smbr/img/'.strtolower($kc->nama).'/'.$jenjang.'/'.$npsn.'/';
         if($sekolah->save()){

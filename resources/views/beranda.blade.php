@@ -220,11 +220,13 @@
                                 "<table class='centered bordered'>"+
                                 "<thead>"+
                                 "<tr>"+
-                                "<th colspan='2'>Passing Grade</th>"+
+                                "<th colspan='4'>Passing Grade</th>"+
                                 "</tr>"+
                                 "<tr>"+
-                                "<th data-field='id'>latitude</th>"+
-                                "<th data-field='name'>longitude</th>"+
+                                "<th data-field='id'><center>Terendah 2015</center></th>"+
+                                "<th data-field='name'><center>Tertinggi 2015</center></th>"+
+                                "<th data-field='id'><center>Terendah 2016</center></th>"+
+                                "<th data-field='name'><center>Tertinggi 2016</center></th>"+
                                 "</tr>"+
                                 "</thead>"+
                                 "<tbody>"+
