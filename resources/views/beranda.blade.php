@@ -133,8 +133,8 @@
                     // some code..
                     customOptions =
                     {
-                        'maxHeight': '300',
-                        'maxWidth': '400',
+                        'maxHeight': '250',
+                        'maxWidth': '300',
                         'className' : 'custom'
                     };
                     maxzoom=10;
