@@ -137,7 +137,7 @@
                         'maxWidth': '400',
                         'className' : 'custom'
                     };
-                    maxzoom=12;
+                    maxzoom=10;
                 }else{
                     customOptions =
                     {
@@ -276,9 +276,14 @@
                 }
                 legend.addTo(mymap);
                 var group = new L.featureGroup(arrmarker);
-                group.on('click', function () {
-                    alert('yeay');
-                });
+                if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                    group.on('click', function () {
+                        mymap.removeControl(legend);
+                    });
+                    mymap.on('popupclose',function () {
+                        mymap.addControl(legend);
+                    });
+                }
                 mymap.fitBounds(group.getBounds());
             });
         </script>
