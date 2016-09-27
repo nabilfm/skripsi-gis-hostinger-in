@@ -10,7 +10,7 @@
         <style>
             #mapid { height:370px; }
             @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-                #mapid { height:250px; }
+                #mapid { height:350px; }
             }
             .info {
                 padding: 6px 8px;
@@ -64,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col s12 center">
-                    <div class="input-field col s5">
+                    <div class="input-field col s4">
                         <select id="SC_jenjang" name="SC_jenjang" required>
                             <option value="default" disabled selected>Choose your option</option>
                             <option value=1 {{{$jenjang==='smp' ? "selected":""}}}>SMP</option>
@@ -73,7 +73,7 @@
                         </select>
                         <label>Jenjang</label>
                     </div>
-                    <div class="input-field col s5">
+                    <div class="input-field col s4">
                         <select id="SC_kecamatan" name="SC_kecamatan" required>
                             <option value="default" disabled selected>Choose your option</option>
                             <option value="0" {{{!$kecamatan ? "selected":""}}}>Semua Kecamatan</option>
@@ -83,7 +83,7 @@
                         </select>
                         <label>Kecamatan</label>
                     </div>
-                    <div class="col s2">
+                    <div class="col s4">
                         <a id="btnPilih" class="waves-effect waves-light btn center green black-text">pilih</a>
                     </div>
                 </div>
