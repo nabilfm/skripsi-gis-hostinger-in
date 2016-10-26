@@ -213,7 +213,7 @@
                     var ikonlg  = {smp:"commercial-11.svg",sma:"college-11.svg"};
                     for (var xx in sekolah) {
                         var sc = sekolah[xx];
-                        popupcontent = "<h5 class='teal-text center'>" + sc['nama']+ "</h5><p>" + sc['alamat']+ "</p>" +
+                        popupcontent = "<h5 class='teal-text center'>" + sc['nama']+ "</h5><center><p>" + sc['alamat']+ "</p></center>" +
                                 "<center><img style='height: 100px; width: 100px;' src='"+window.location.protocol + "//" + window.location.host + "/"+gambar[xx]+"'></center>"+
                                 "<table class='centered bordered'>"+
                                 "<thead>"+
