@@ -218,22 +218,6 @@
                                 "<table class='centered bordered'>"+
                                 "<thead>"+
                                 "<tr>"+
-                                "<th data-field='id'>latitude</th>"+
-                                "<th data-field='name'>longitude</th>"+
-                                "</tr>"+
-                                "</thead>"+
-                                "<tbody>"+
-                                "<tr>"+
-                                "<td>"+sc['latitude']+"</td>"+
-                                "<td>"+sc['longitude']+"</td>"+
-                                "</tr>" +
-                                "</tbody>" +
-                                "</table>"+
-                                "<p class='center'>Akreditasi <strong>"+sc['akreditasi']+"</strong></p>" +
-                                "<br>" +
-                                "<table class='centered bordered'>"+
-                                "<thead>"+
-                                "<tr>"+
                                 "<th colspan='4'>Passing Grade</th>"+
                                 "</tr>"+
                                 "<tr>"+
@@ -249,6 +233,21 @@
                                 "<td>"+sc['psgrade15high']+"</td>"+
                                 "<td>"+sc['psgrade16low']+"</td>"+
                                 "<td>"+sc['psgrade16high']+"</td>"+
+                                "</tr>" +
+                                "</tbody>" +
+                                "</table>"+
+                                "<p class='center'>Akreditasi <strong>"+sc['akreditasi']+"</strong></p>" +
+                                "<table class='centered bordered'>"+
+                                "<thead>"+
+                                "<tr>"+
+                                "<th data-field='id'>latitude</th>"+
+                                "<th data-field='name'>longitude</th>"+
+                                "</tr>"+
+                                "</thead>"+
+                                "<tbody>"+
+                                "<tr>"+
+                                "<td>"+sc['latitude']+"</td>"+
+                                "<td>"+sc['longitude']+"</td>"+
                                 "</tr>" +
                                 "</tbody>" +
                                 "</table>"+
