@@ -105,21 +105,6 @@
                         "<table class='centered bordered'>"+
                         "<thead>"+
                         "<tr>"+
-                        "<th data-field='id'>latitude</th>"+
-                        "<th data-field='name'>longitude</th>"+
-                        "</tr>"+
-                        "</thead>"+
-                        "<tbody>"+
-                        "<tr>"+
-                        "<td>"+latitude+"</td>"+
-                        "<td>"+longitude+"</td>"+
-                        "</tr>" +
-                        "</tbody>" +
-                        "</table>"+
-                        "<br/>"+
-                        "<table class='centered bordered'>"+
-                        "<thead>"+
-                        "<tr>"+
                         "<th colspan='4'>Passing Grade</th>"+
                         "</tr>"+
                         "<tr>"+
@@ -135,6 +120,21 @@
                         "<td>"+pg15high+"</td>"+
                         "<td>"+pg16low+"</td>"+
                         "<td>"+pg16high+"</td>"+
+                        "</tr>" +
+                        "</tbody>" +
+                        "</table>"+
+                        "<br/>"+
+                        "<table class='centered bordered'>"+
+                        "<thead>"+
+                        "<tr>"+
+                        "<th data-field='id'>latitude</th>"+
+                        "<th data-field='name'>longitude</th>"+
+                        "</tr>"+
+                        "</thead>"+
+                        "<tbody>"+
+                        "<tr>"+
+                        "<td>"+latitude+"</td>"+
+                        "<td>"+longitude+"</td>"+
                         "</tr>" +
                         "</tbody>" +
                         "</table>"+
