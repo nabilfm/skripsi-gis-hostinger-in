@@ -9,7 +9,7 @@
     <div class="container">
     <div class="row">
         <img class="center" style="height: 5%;width: 5%;" src="{{asset('smbr/img/logo.png')}}">
-        <p id="desc_web" class="center white-text">Sebaran {{$tipe}} Negeri {{$keterangan}}Depok</p>
+        <p id="desc_web" class="center white-text">Sebaran SMP dan SMA Negeri di Wilayah Kota Depok</p>
     </div>
         <div class="row">
             <div class="col s12">
