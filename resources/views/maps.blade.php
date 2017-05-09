@@ -163,15 +163,18 @@
                 'className' : 'custom'
             };
 
-            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+//            L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            L.tileLayer('https://api.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
                 maxZoom: 18,
                 attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
                 '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
                 'Imagery © <a href="http://mapbox.com">Mapbox</a>',
                 id: 'mapbox.streets',
-                accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw'
+//                accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw'
+                accessToken: 'pk.eyJ1IjoibmFiaWxmbSIsImEiOiJjaW5iNGNrbHYwa285dWZsd2szM21xdTRhIn0.r3BuXfQVm-jVcVr5Gjc41Q'
             }).addTo(mymap);
-            L.MakiMarkers.accessToken = "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw";
+//            L.MakiMarkers.accessToken = "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw";
+            L.MakiMarkers.accessToken = "pk.eyJ1IjoibmFiaWxmbSIsImEiOiJjaW5iNGNrbHYwa285dWZsd2szM21xdTRhIn0.r3BuXfQVm-jVcVr5Gjc41Q";
 
             if(all) {
                 for (var i in lokasi) {
